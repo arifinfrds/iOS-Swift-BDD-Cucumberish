@@ -2,19 +2,22 @@
 
 My Testing implementation for course about BDD Acceptance Testing (section 8): https://www.udemy.com/course/testing-ios-apps-behavior-driven-development-using-swift/
 
-Example: 
+# Example: 
 
-Gherkin Language<br>
-Feature: Adding Tasks<br>
+## BDD Specs
 
-Scenario: As a user, I want to add todo tasks to my list<br>
+### Feature: Adding Tasks
 
-Given I launch the App<br>
-When I add "Wash the car" as a task<br>
-Then I should have "1" item in the list<br>
+### Scenario: As a user, I want to add todo tasks to my list
+
+```
+Given I launch the App
+When I add "Wash the car" as a task
+Then I should have "1" item in the list
+```
 
 
-Implementation
+## Implementation
 ```swift
             // MARK: - Scenario: As a user, I want to add todo tasks to my list
             
