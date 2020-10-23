@@ -4,14 +4,14 @@ My Testing implementation for course about BDD Acceptance Testing (section 8): h
 
 Example: 
 
-Gherkin Language
-Feature: Adding Tasks
+Gherkin Language<br>
+Feature: Adding Tasks<br>
 
-Scenario: As a user, I want to add todo tasks to my list
+Scenario: As a user, I want to add todo tasks to my list<br>
 
-Given I launch the App
-When I add "Wash the car" as a task
-Then I should have "1" item in the list
+Given I launch the App<br>
+When I add "Wash the car" as a task<br>
+Then I should have "1" item in the list<br>
 
 
 Implementation
