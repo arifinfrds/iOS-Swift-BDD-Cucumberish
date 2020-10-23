@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		36903C8105B8071A552C6B07 /* Pods_AFTodoListApp_AFTodoListAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB692C180AA5D36201D04D64 /* Pods_AFTodoListApp_AFTodoListAppUITests.framework */; };
 		54299418F8B9C4F729E92575 /* Pods_AFTodoListAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D7C1430CE32B86F75D1048 /* Pods_AFTodoListAppTests.framework */; };
 		68B1E4E84F7C288FE2C525DF /* Pods_AFTodoListApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C22B54D43739C797EF8F7E7 /* Pods_AFTodoListApp.framework */; };
+		920AE7042542DBD500C45811 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 920AE7032542DBD500C45811 /* CucumberishLoader.m */; };
+		920AE7092542DC4400C45811 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 920AE7082542DC4400C45811 /* Features */; };
+		920AE7112542DC5C00C45811 /* CucumberishInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920AE7102542DC5C00C45811 /* CucumberishInitializer.swift */; };
 		92C54E4A2542D81500F90192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E492542D81500F90192 /* AppDelegate.swift */; };
 		92C54E4C2542D81500F90192 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E4B2542D81500F90192 /* SceneDelegate.swift */; };
 		92C54E4E2542D81500F90192 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E4D2542D81500F90192 /* ContentView.swift */; };
@@ -17,7 +20,6 @@
 		92C54E532542D81600F90192 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C54E522542D81600F90192 /* Preview Assets.xcassets */; };
 		92C54E562542D81600F90192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C54E542542D81600F90192 /* LaunchScreen.storyboard */; };
 		92C54E612542D81600F90192 /* AFTodoListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E602542D81600F90192 /* AFTodoListAppTests.swift */; };
-		92C54E6C2542D81600F90192 /* AFTodoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E6B2542D81600F90192 /* AFTodoListAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		50F3F7F14F20C9A772BB1C22 /* Pods-AFTodoListApp-AFTodoListAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFTodoListApp-AFTodoListAppUITests.release.xcconfig"; path = "Target Support Files/Pods-AFTodoListApp-AFTodoListAppUITests/Pods-AFTodoListApp-AFTodoListAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		61850D95EAB92253BE837F14 /* Pods-AFTodoListAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFTodoListAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AFTodoListAppTests/Pods-AFTodoListAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D7D8C1AFFBFF4C075BE5A1B /* Pods-AFTodoListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFTodoListApp.release.xcconfig"; path = "Target Support Files/Pods-AFTodoListApp/Pods-AFTodoListApp.release.xcconfig"; sourceTree = "<group>"; };
+		920AE7022542DBD500C45811 /* AFTodoListAppUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFTodoListAppUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		920AE7032542DBD500C45811 /* CucumberishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishLoader.m; sourceTree = "<group>"; };
+		920AE7082542DC4400C45811 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
+		920AE7102542DC5C00C45811 /* CucumberishInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishInitializer.swift; sourceTree = "<group>"; };
 		92C54E462542D81500F90192 /* AFTodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFTodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C54E492542D81500F90192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92C54E4B2542D81500F90192 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +63,6 @@
 		92C54E602542D81600F90192 /* AFTodoListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFTodoListAppTests.swift; sourceTree = "<group>"; };
 		92C54E622542D81600F90192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C54E672542D81600F90192 /* AFTodoListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFTodoListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92C54E6B2542D81600F90192 /* AFTodoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFTodoListAppUITests.swift; sourceTree = "<group>"; };
 		92C54E6D2542D81600F90192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93D7C1430CE32B86F75D1048 /* Pods_AFTodoListAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFTodoListAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB692C180AA5D36201D04D64 /* Pods_AFTodoListApp_AFTodoListAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFTodoListApp_AFTodoListAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,8 +162,11 @@
 		92C54E6A2542D81600F90192 /* AFTodoListAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				92C54E6B2542D81600F90192 /* AFTodoListAppUITests.swift */,
+				920AE7082542DC4400C45811 /* Features */,
 				92C54E6D2542D81600F90192 /* Info.plist */,
+				920AE7032542DBD500C45811 /* CucumberishLoader.m */,
+				920AE7022542DBD500C45811 /* AFTodoListAppUITests-Bridging-Header.h */,
+				920AE7102542DC5C00C45811 /* CucumberishInitializer.swift */,
 			);
 			path = AFTodoListAppUITests;
 			sourceTree = "<group>";
@@ -173,7 +181,6 @@
 				61850D95EAB92253BE837F14 /* Pods-AFTodoListAppTests.debug.xcconfig */,
 				4B80CB03950FC9D28B86D59F /* Pods-AFTodoListAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -255,6 +262,7 @@
 					};
 					92C54E662542D81600F90192 = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 						TestTargetID = 92C54E452542D81500F90192;
 					};
 				};
@@ -301,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920AE7092542DC4400C45811 /* Features in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +424,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C54E6C2542D81600F90192 /* AFTodoListAppUITests.swift in Sources */,
+				920AE7112542DC5C00C45811 /* CucumberishInitializer.swift in Sources */,
+				920AE7042542DBD500C45811 /* CucumberishLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,7 +663,9 @@
 			baseConfigurationReference = 159C61F625EA4A6CF7240AB8 /* Pods-AFTodoListApp-AFTodoListAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = AFTodoListAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -662,6 +674,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.arifinfrds.AFTodoListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AFTodoListAppUITests/AFTodoListAppUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = AFTodoListApp;
@@ -673,7 +687,9 @@
 			baseConfigurationReference = 50F3F7F14F20C9A772BB1C22 /* Pods-AFTodoListApp-AFTodoListAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = AFTodoListAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -682,6 +698,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.arifinfrds.AFTodoListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AFTodoListAppUITests/AFTodoListAppUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = AFTodoListApp;
