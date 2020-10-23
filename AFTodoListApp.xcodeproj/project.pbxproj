@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36903C8105B8071A552C6B07 /* Pods_AFTodoListApp_AFTodoListAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB692C180AA5D36201D04D64 /* Pods_AFTodoListApp_AFTodoListAppUITests.framework */; };
+		54299418F8B9C4F729E92575 /* Pods_AFTodoListAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D7C1430CE32B86F75D1048 /* Pods_AFTodoListAppTests.framework */; };
+		68B1E4E84F7C288FE2C525DF /* Pods_AFTodoListApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C22B54D43739C797EF8F7E7 /* Pods_AFTodoListApp.framework */; };
 		92C54E4A2542D81500F90192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E492542D81500F90192 /* AppDelegate.swift */; };
 		92C54E4C2542D81500F90192 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E4B2542D81500F90192 /* SceneDelegate.swift */; };
 		92C54E4E2542D81500F90192 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E4D2542D81500F90192 /* ContentView.swift */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		159C61F625EA4A6CF7240AB8 /* Pods-AFTodoListApp-AFTodoListAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFTodoListApp-AFTodoListAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AFTodoListApp-AFTodoListAppUITests/Pods-AFTodoListApp-AFTodoListAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		253A7F89E977A537825D6E79 /* Pods-AFTodoListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFTodoListApp.debug.xcconfig"; path = "Target Support Files/Pods-AFTodoListApp/Pods-AFTodoListApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2C22B54D43739C797EF8F7E7 /* Pods_AFTodoListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFTodoListApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B80CB03950FC9D28B86D59F /* Pods-AFTodoListAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFTodoListAppTests.release.xcconfig"; path = "Target Support Files/Pods-AFTodoListAppTests/Pods-AFTodoListAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		50F3F7F14F20C9A772BB1C22 /* Pods-AFTodoListApp-AFTodoListAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFTodoListApp-AFTodoListAppUITests.release.xcconfig"; path = "Target Support Files/Pods-AFTodoListApp-AFTodoListAppUITests/Pods-AFTodoListApp-AFTodoListAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61850D95EAB92253BE837F14 /* Pods-AFTodoListAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFTodoListAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AFTodoListAppTests/Pods-AFTodoListAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D7D8C1AFFBFF4C075BE5A1B /* Pods-AFTodoListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFTodoListApp.release.xcconfig"; path = "Target Support Files/Pods-AFTodoListApp/Pods-AFTodoListApp.release.xcconfig"; sourceTree = "<group>"; };
 		92C54E462542D81500F90192 /* AFTodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFTodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C54E492542D81500F90192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92C54E4B2542D81500F90192 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		92C54E672542D81600F90192 /* AFTodoListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFTodoListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C54E6B2542D81600F90192 /* AFTodoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFTodoListAppUITests.swift; sourceTree = "<group>"; };
 		92C54E6D2542D81600F90192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D7C1430CE32B86F75D1048 /* Pods_AFTodoListAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFTodoListAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB692C180AA5D36201D04D64 /* Pods_AFTodoListApp_AFTodoListAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFTodoListApp_AFTodoListAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B1E4E84F7C288FE2C525DF /* Pods_AFTodoListApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54299418F8B9C4F729E92575 /* Pods_AFTodoListAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36903C8105B8071A552C6B07 /* Pods_AFTodoListApp_AFTodoListAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72CC1D1032BE51477E1997BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C22B54D43739C797EF8F7E7 /* Pods_AFTodoListApp.framework */,
+				FB692C180AA5D36201D04D64 /* Pods_AFTodoListApp_AFTodoListAppUITests.framework */,
+				93D7C1430CE32B86F75D1048 /* Pods_AFTodoListAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		92C54E3D2542D81500F90192 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				92C54E5F2542D81600F90192 /* AFTodoListAppTests */,
 				92C54E6A2542D81600F90192 /* AFTodoListAppUITests */,
 				92C54E472542D81500F90192 /* Products */,
+				D749E35930B04CA9EC82D25D /* Pods */,
+				72CC1D1032BE51477E1997BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +163,20 @@
 			path = AFTodoListAppUITests;
 			sourceTree = "<group>";
 		};
+		D749E35930B04CA9EC82D25D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				253A7F89E977A537825D6E79 /* Pods-AFTodoListApp.debug.xcconfig */,
+				6D7D8C1AFFBFF4C075BE5A1B /* Pods-AFTodoListApp.release.xcconfig */,
+				159C61F625EA4A6CF7240AB8 /* Pods-AFTodoListApp-AFTodoListAppUITests.debug.xcconfig */,
+				50F3F7F14F20C9A772BB1C22 /* Pods-AFTodoListApp-AFTodoListAppUITests.release.xcconfig */,
+				61850D95EAB92253BE837F14 /* Pods-AFTodoListAppTests.debug.xcconfig */,
+				4B80CB03950FC9D28B86D59F /* Pods-AFTodoListAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92C54E702542D81600F90192 /* Build configuration list for PBXNativeTarget "AFTodoListApp" */;
 			buildPhases = (
+				83C11FBFAD354CB31E372AC1 /* [CP] Check Pods Manifest.lock */,
 				92C54E422542D81500F90192 /* Sources */,
 				92C54E432542D81500F90192 /* Frameworks */,
 				92C54E442542D81500F90192 /* Resources */,
@@ -160,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92C54E732542D81600F90192 /* Build configuration list for PBXNativeTarget "AFTodoListAppTests" */;
 			buildPhases = (
+				909E0738B1E6AB4943CA146A /* [CP] Check Pods Manifest.lock */,
 				92C54E582542D81600F90192 /* Sources */,
 				92C54E592542D81600F90192 /* Frameworks */,
 				92C54E5A2542D81600F90192 /* Resources */,
@@ -178,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92C54E762542D81600F90192 /* Build configuration list for PBXNativeTarget "AFTodoListAppUITests" */;
 			buildPhases = (
+				A4A8BA0210F406998DC61FFB /* [CP] Check Pods Manifest.lock */,
 				92C54E632542D81600F90192 /* Sources */,
 				92C54E642542D81600F90192 /* Frameworks */,
 				92C54E652542D81600F90192 /* Resources */,
+				6BB367D647C17EFE3BB45047 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +305,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BB367D647C17EFE3BB45047 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFTodoListApp-AFTodoListAppUITests/Pods-AFTodoListApp-AFTodoListAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFTodoListApp-AFTodoListAppUITests/Pods-AFTodoListApp-AFTodoListAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AFTodoListApp-AFTodoListAppUITests/Pods-AFTodoListApp-AFTodoListAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C11FBFAD354CB31E372AC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFTodoListApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909E0738B1E6AB4943CA146A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFTodoListAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A8BA0210F406998DC61FFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFTodoListApp-AFTodoListAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92C54E422542D81500F90192 /* Sources */ = {
@@ -433,6 +564,7 @@
 		};
 		92C54E712542D81600F90192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253A7F89E977A537825D6E79 /* Pods-AFTodoListApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +585,7 @@
 		};
 		92C54E722542D81600F90192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7D8C1AFFBFF4C075BE5A1B /* Pods-AFTodoListApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +606,7 @@
 		};
 		92C54E742542D81600F90192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61850D95EAB92253BE837F14 /* Pods-AFTodoListAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +628,7 @@
 		};
 		92C54E752542D81600F90192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B80CB03950FC9D28B86D59F /* Pods-AFTodoListAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +650,7 @@
 		};
 		92C54E772542D81600F90192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159C61F625EA4A6CF7240AB8 /* Pods-AFTodoListApp-AFTodoListAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +670,7 @@
 		};
 		92C54E782542D81600F90192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F3F7F14F20C9A772BB1C22 /* Pods-AFTodoListApp-AFTodoListAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

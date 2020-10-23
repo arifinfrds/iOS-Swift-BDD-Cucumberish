@@ -1,0 +1,6 @@
+framework module Pods_AFTodoListAppTests {
+  umbrella header "Pods-AFTodoListAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
