@@ -13,6 +13,7 @@
 		920AE7042542DBD500C45811 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 920AE7032542DBD500C45811 /* CucumberishLoader.m */; };
 		920AE7092542DC4400C45811 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 920AE7082542DC4400C45811 /* Features */; };
 		920AE7112542DC5C00C45811 /* CucumberishInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920AE7102542DC5C00C45811 /* CucumberishInitializer.swift */; };
+		920AE72D2542F8A600C45811 /* TodoListHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920AE72C2542F8A600C45811 /* TodoListHomePage.swift */; };
 		92C54E4A2542D81500F90192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E492542D81500F90192 /* AppDelegate.swift */; };
 		92C54E4C2542D81500F90192 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E4B2542D81500F90192 /* SceneDelegate.swift */; };
 		92C54E4E2542D81500F90192 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C54E4D2542D81500F90192 /* ContentView.swift */; };
@@ -51,6 +52,7 @@
 		920AE7032542DBD500C45811 /* CucumberishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishLoader.m; sourceTree = "<group>"; };
 		920AE7082542DC4400C45811 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
 		920AE7102542DC5C00C45811 /* CucumberishInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishInitializer.swift; sourceTree = "<group>"; };
+		920AE72C2542F8A600C45811 /* TodoListHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListHomePage.swift; sourceTree = "<group>"; };
 		92C54E462542D81500F90192 /* AFTodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFTodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C54E492542D81500F90192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92C54E4B2542D81500F90192 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 				93D7C1430CE32B86F75D1048 /* Pods_AFTodoListAppTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		920AE72B2542F89100C45811 /* Page Object */ = {
+			isa = PBXGroup;
+			children = (
+				920AE72C2542F8A600C45811 /* TodoListHomePage.swift */,
+			);
+			path = "Page Object";
 			sourceTree = "<group>";
 		};
 		92C54E3D2542D81500F90192 = {
@@ -162,6 +172,7 @@
 		92C54E6A2542D81600F90192 /* AFTodoListAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				920AE72B2542F89100C45811 /* Page Object */,
 				920AE7082542DC4400C45811 /* Features */,
 				92C54E6D2542D81600F90192 /* Info.plist */,
 				920AE7032542DBD500C45811 /* CucumberishLoader.m */,
@@ -425,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				920AE7112542DC5C00C45811 /* CucumberishInitializer.swift in Sources */,
+				920AE72D2542F8A600C45811 /* TodoListHomePage.swift in Sources */,
 				920AE7042542DBD500C45811 /* CucumberishLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
